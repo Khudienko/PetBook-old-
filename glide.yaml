@@ -1,0 +1,12 @@
+package: PetBook
+import:
+- package: github.com/dgrijalva/jwt-go
+- package: github.com/gorilla/context
+- package: github.com/gorilla/handlers
+- package: github.com/gorilla/mux
+- package: github.com/jmoiron/sqlx
+- package: github.com/joho/godotenv
+- package: github.com/lib/pq
+- package: github.com/rubenv/sql-migrate
+- package: github.com/subosito/gotenv
+- package: github.com/urfave/negroni

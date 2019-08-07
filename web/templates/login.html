@@ -1,0 +1,25 @@
+{{ define "layout" }}
+
+    <!DOCTYPE html>
+    <html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>َLogin - PetBook</title>
+        <link rel="stylesheet" href="../assets/registerAndLogin.css">
+    </head>
+    <body>
+
+    <div class="box">
+    <form action="/login" method="POST">
+        <h1>PetBook Login</h1>
+        <input type="text" name="email" placeholder="email">
+        <input type="password" name="password" placeholder="Password">
+        <input type="submit" value="Login">
+    </form>
+        <a href="/register">Create account</a>
+    </div>
+
+    </body>
+    </html>
+
+{{ end }}

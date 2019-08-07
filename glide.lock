@@ -1,0 +1,33 @@
+hash: c2263b12758ec3fe5ca54ced4759535f40b7f4d280d7c0c67bb79031b41b5f4f
+updated: 2019-08-04T12:08:11.653635545+03:00
+imports:
+- name: github.com/dgrijalva/jwt-go
+  version: 5e25c22bd5d6de03265bbe5462dcd162f85046f6
+- name: github.com/gorilla/context
+  version: 8559d4a6b87e4f517ec1846eb90a192b8748cc89
+- name: github.com/gorilla/handlers
+  version: 415c4810185c26aa35ca0315470d77697000794b
+- name: github.com/gorilla/mux
+  version: 00bdffe0f3c77e27d2cf6f5c70232a2d3e4d9c15
+- name: github.com/jmoiron/sqlx
+  version: d161d7a76b5661016ad0b085869f77fd410f3e6a
+  subpackages:
+  - reflectx
+- name: github.com/joho/godotenv
+  version: 5c0e6c6ab1a0a9ef0a8822cba3a05d62f7dad941
+- name: github.com/lib/pq
+  version: 3427c32cb71afc948325f299f040e53c1dd78979
+  subpackages:
+  - oid
+  - scram
+- name: github.com/rubenv/sql-migrate
+  version: 87ce952f7079c58e10a2a85835202943ebb9580c
+  subpackages:
+  - sqlparse
+- name: github.com/subosito/gotenv
+  version: 69b5b6104433beb2cb9c3ce00bdadf3c7c2d3f34
+- name: github.com/urfave/negroni
+  version: 8e3bbcee9957b257484f237fc5acac6e573c5b37
+- name: gopkg.in/gorp.v1
+  version: 6a667da9c028871f98598d85413e3fc4c6daa52e
+testImports: []

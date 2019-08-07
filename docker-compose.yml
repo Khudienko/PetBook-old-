@@ -1,0 +1,12 @@
+version: '3'
+services:
+  db:
+    image: "postgres:latest"
+    ports:
+      - "5434:5432"
+    volumes:
+      - ./pgData:/var/lib/psotgresql/data
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: docker
+      POSTGRES_DB: pet-book
